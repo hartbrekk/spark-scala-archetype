@@ -10,13 +10,20 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <encoding>UTF-8</encoding>
-        <scala.version>2.11.8</scala.version>
-        <scala.compat.version>2.11</scala.compat.version>
+        <scala.version>2.10.7</scala.version>
+        <scala.compat.version>2.10</scala.compat.version>
         <scalatest.version>3.0.5</scalatest.version>
-        <spark.version>2.3.0</spark.version>
+        <spark.version>1.6.0-cdh5.7.0</spark.version>
         <specs2.version>3.9.5</specs2.version>
         <junit.version>4.12</junit.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>cloudera</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
